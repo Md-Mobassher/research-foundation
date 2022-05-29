@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaMobileAlt } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
 import { MdOutlineLocationOn } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
 
@@ -32,35 +32,37 @@ const Navbar = ({children}) => {
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
             <div class="drawer-content flex flex-col">
                 
-                 <div className='flex  w-full shadow-lg justify-between items-center px-20'>
-                    <div className='flex items-center text-sm '>
-                        <div className='flex justify-center items-center gap-2'>
-                           <FaMobileAlt />  <p> +880-170000000</p>
+                <div className='hidden lg:block'>
+                    <div className='flex  w-full shadow-lg justify-between items-center px-20'>
+                        <div className='flex items-center text-sm '>
+                            <div className='flex justify-center items-center gap-2'>
+                            <FaMobileAlt />  <p> +880-170000000</p>
+                            </div>
+                            <div class="divider divider-horizontal"></div>
+                            <div className='flex justify-center items-center gap-2'>
+                            <MdOutlineLocationOn />  <p>House- 22, 6th Floor, Road- 08, Sector- 09, Uttara, Dhaka</p>
+                            </div>
                         </div>
-                        <div class="divider divider-horizontal"></div>
-                        <div className='flex justify-center items-center gap-2'>
-                           <MdOutlineLocationOn />  <p>House- 22, 6th Floor, Road- 08, Sector- 09, Uttara, Dhaka</p>
+
+                        <div className='flex '>
+                            <div class="divider divider-horizontal  m-0 p-0 w-0"></div>
+
+                            <div className='w-8 h-8 flex justify-center items-center hover:bg-primary'><Link to='/'><FaFacebookF /></Link></div>
+
+                            <div class="divider divider-horizontal  m-0 p-0 w-0"></div>
+
+                            <div className='w-8 h-8 flex justify-center items-center hover:bg-primary'><Link to='/'><FaLinkedinIn /></Link></div>
+
+                            <div class="divider divider-horizontal  m-0 p-0 w-0"></div>
+
+                            <div className='w-8 h-8 flex justify-center items-center hover:bg-primary'><Link to='/'><AiOutlineYoutube /></Link></div> 
+
+                            <div class="divider m-0 p-0 w-0 divider-horizontal"></div>                      
                         </div>
-                    </div>
-
-                    <div className='flex '>
-                         <div class="divider divider-horizontal  m-0 p-0 w-0"></div>
-
-                        <div className='w-7 h-7 flex justify-center items-center hover:bg-primary'><Link to='/'><FaFacebookF /></Link></div>
-
-                        <div class="divider divider-horizontal  m-0 p-0 w-0"></div>
-
-                        <div className='w-7 h-7 flex justify-center items-center hover:bg-primary'><Link to='/'><FaLinkedinIn /></Link></div>
-
-                        <div class="divider divider-horizontal  m-0 p-0 w-0"></div>
-
-                        <div className='w-7 h-7 flex justify-center items-center hover:bg-primary'><Link to='/'><AiOutlineYoutube /></Link></div> 
-
-                        <div class="divider m-0 p-0 w-0 divider-horizontal"></div>                      
                     </div>
                 </div>
               
-             <div class="w-full navbar lg:px-20 shadow-md ">
+             <div class="w-full navbar sticky-top lg:px-20 shadow-md ">
                 <div class="flex-1 text-2xl px-2 mx-2"><Link to='/'>Research Foundatoin</Link></div>
                  <div class="flex-none lg:hidden">
                     <label for="my-drawer-3" class="btn btn-square btn-ghost">
