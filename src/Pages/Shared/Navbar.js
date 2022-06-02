@@ -32,8 +32,8 @@ const Navbar = ({children}) => {
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
             <div class="drawer-content flex flex-col">
                 
-                <div className='hidden lg:block'>
-                    <div className='flex  w-full shadow-lg justify-between items-center px-20'>
+                <div className='hidden lg:block  shadow-lg'>
+                    <div className='flex  w-full border-b-2 justify-between items-center px-20'>
                         <div className='flex items-center text-sm '>
                             <div className='flex justify-center items-center gap-2'>
                             <FaMobileAlt />  <p> +880-170000000</p>
