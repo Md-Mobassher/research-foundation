@@ -7,6 +7,7 @@ import More from './Pages/More/More';
 import People from './Pages/People/People';
 import Publications from './Pages/Publications/Publications';
 import Footer from './Pages/Shared/Footer';
+import Loading from './Pages/Shared/Loading';
 import Navbar from './Pages/Shared/Navbar';
 import NotFound from './Pages/Shared/NotFound';
 
@@ -24,9 +25,12 @@ function App() {
 
           <Route path='*' element={<NotFound />}></Route>
         </Routes>
+        
+        <Footer></Footer>
       </Navbar>
 
-      <Footer></Footer>
+
+      
     </div>
   );
 }
