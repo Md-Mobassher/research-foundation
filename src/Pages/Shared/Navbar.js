@@ -32,7 +32,7 @@ const Navbar = ({children}) => {
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
             <div class="drawer-content flex flex-col">
                 
-                <div className='hidden lg:block  shadow-lg'>
+                <div className='hidden lg:block  shadow-lg '>
                     <div className='flex  w-full border-b-2 justify-between items-center px-20'>
                         <div className='flex items-center text-sm '>
                             <div className='flex justify-center items-center gap-2'>
@@ -62,7 +62,7 @@ const Navbar = ({children}) => {
                     </div>
                 </div>
               
-             <div class="w-full navbar sticky top-0 lg:px-20 shadow-md bg-base-100">
+             <div class="w-full navbar sticky top-0 lg:px-20 shadow-md bg-base-100 z-20">
                 <div class="flex-1 text-2xl px-2 mx-2"><Link to='/'>Research Foundatoin</Link></div>
                  <div class="flex-none lg:hidden">
                     <label for="my-drawer-3" class="btn btn-square btn-ghost">
