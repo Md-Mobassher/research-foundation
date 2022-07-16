@@ -7,7 +7,7 @@ const TeamMember = ({teamMember}) => {
 
 
     const handleDescription = (id) => {
-        navigate(`/${id}`);
+        navigate(`/people/${id}`);
     }
     return ( 
         <div class="card  bg-base-100 shadow-xl">

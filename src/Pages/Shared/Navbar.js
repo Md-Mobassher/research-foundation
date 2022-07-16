@@ -47,15 +47,15 @@ const Navbar = ({children}) => {
                         <div className='flex '>
                             <div class="divider divider-horizontal  m-0 p-0 w-0"></div>
 
-                            <div className='w-8 h-8 flex justify-center items-center hover:bg-primary'><Link to='/'><FaFacebookF /></Link></div>
+                            <div className='w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white'><Link to='/'><FaFacebookF /></Link></div>
 
                             <div class="divider divider-horizontal  m-0 p-0 w-0"></div>
 
-                            <div className='w-8 h-8 flex justify-center items-center hover:bg-primary'><Link to='/'><FaLinkedinIn /></Link></div>
+                            <div className='w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white'><Link to='/'><FaLinkedinIn /></Link></div>
 
                             <div class="divider divider-horizontal  m-0 p-0 w-0"></div>
 
-                            <div className='w-8 h-8 flex justify-center items-center hover:bg-primary'><Link to='/'><AiOutlineYoutube /></Link></div> 
+                            <div className='w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white'><Link to='/'><AiOutlineYoutube /></Link></div> 
 
                             <div class="divider m-0 p-0 w-0 divider-horizontal"></div>                      
                         </div>
@@ -63,7 +63,7 @@ const Navbar = ({children}) => {
                 </div>
               
              <div class="w-full navbar sticky top-0 lg:px-20 shadow-md bg-base-100 z-20">
-                <div class="flex-1 text-2xl px-2 mx-2"><Link to='/'>Research Foundatoin</Link></div>
+                <div class="flex-1 text-4xl font-semibold px-2 mx-2"><Link to='/'>NGIT</Link></div>
                  <div class="flex-none lg:hidden">
                     <label for="my-drawer-3" class="btn btn-square btn-ghost">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
