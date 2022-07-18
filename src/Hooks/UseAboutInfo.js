@@ -1,11 +1,9 @@
 import React from 'react';
 
-const AboutUs = () => {
+const UseAboutInfo = () => {
     return (
-        <div className='lg:px-20 px-3 overflow-x-hidden overflow-hidden mx-auto my-12'>
-            <h2 className='text-3xl mb-2'>NGIT Research Foundation, Bangladesh</h2>
-            <hr />
-            <div className='mt-5'>
+        <div>
+             <div className='mt-5'>
                 <h5 className=' text-xl font-semibold mb-2'>WHO WE ARE</h5>
                 <p className='text-sm'>NGIT is an independent, non-profit, non-political organization which was established by A K M Ahasan Habib. Mainly, NGIT focus on science and engineering research and take necessary initiatives from Undergraduate level student (i.e. new innovative idea, high level research, publish research article, skill development course & help desk for higher study). We will try to do scientific research collaborate with national and international researcher and build better future for our member/researcher in home & abroad. NGIT started its official journey in February 2020..</p>
             </div>
@@ -65,4 +63,4 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs;
+export default UseAboutInfo;

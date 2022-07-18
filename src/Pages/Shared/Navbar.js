@@ -13,10 +13,10 @@ const Navbar = ({children}) => {
 
         <li><Link className='rounded-lg' to='/about'>About</Link></li>
         <li  class="dropdown  dropdown-hover hover:overflow-visible "><Link className='rounded-lg' to='/research'>Research</Link>
-            <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+            {/* <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
                  <li><Link className='rounded-lg' to='/people'>People</Link></li>
                  <li><Link className='rounded-lg' to='/publications'>Publications</Link></li>
-            </ul>
+            </ul> */}
         </li>
 
         <li><Link className='rounded-lg' to='/people'>People</Link></li>
